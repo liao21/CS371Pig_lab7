@@ -1,0 +1,4 @@
+#Mon Oct 22 19:37:27 PDT 2018
+base.0=/Users/hayden/Documents/UP2018-2019/CS371/CS371PigGameStarter_lab7/app/build/intermediates/transforms/dexMerger/debug/65
+path.0=classes.dex
+renamed.0=classes.dex

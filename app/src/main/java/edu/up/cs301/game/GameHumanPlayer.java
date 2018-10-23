@@ -52,10 +52,8 @@ public abstract class GameHumanPlayer implements GamePlayer, Tickable {
 
 	public GameHumanPlayer(String name) {
 		// set the name via the argument
+		this.name = name;
 
-			this.name = name;
-
-		
 		// mark game as not being over
 		this.gameOver = false;
 		
@@ -102,7 +100,7 @@ public abstract class GameHumanPlayer implements GamePlayer, Tickable {
 	protected void initAfterReady() {
 		// by default, we do nothing
 	}
-	
+
 	/**
 	 * Sets this player as the one attached to the GUI. Saves the
 	 * activity, then invokes subclass-specific method.
